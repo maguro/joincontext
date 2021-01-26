@@ -1,11 +1,11 @@
 package joincontext_test
 
 import (
+	"context"
 	"fmt"
 	"time"
 
-	"github.com/LK4D4/joincontext"
-	"golang.org/x/net/context"
+	"m4o.io/joincontext"
 )
 
 func ExampleJoin() {
